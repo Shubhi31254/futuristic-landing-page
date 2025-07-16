@@ -1,0 +1,113 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #fff;
+  margin: 0;
+  transition: all 0.4s ease;
+}
+
+.dark-mode {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ddd;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+nav {
+  background: #444;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+nav.hidden {
+  display: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #00cec9;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.gallery img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+  width: 250px;
+  height: auto;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.team div {
+  margin: 10px;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+  background: #fff3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form input, form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  background: #e17055;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2d3436;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  background: #55efc4;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
